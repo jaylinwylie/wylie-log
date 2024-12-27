@@ -1,13 +1,13 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
         name="wylielog",
-        version="0.1.0",
+        version="0.1.1",
         description="A logging utility with support for dynamic call depth tracking and function/class IO logging.",
         author="Jaylin Io Wylie",
         author_email="jaylinwylie@gmail.com",
         url="https://github.com/jaylinwylie/wylielog",
-        packages=[],
+        packages=find_packages(),
         py_modules=["wylielog"],
         license="MIT",
         classifiers=[
