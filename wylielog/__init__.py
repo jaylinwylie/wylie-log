@@ -1,0 +1,1 @@
+from .wylielog import log_callable, log_class, log
